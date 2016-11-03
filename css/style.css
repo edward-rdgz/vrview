@@ -10,6 +10,7 @@ html, body {
   left: 0;
   right: 0;
 }
+
 .dialog {
   display: none;
   align-items: center;
@@ -24,9 +25,11 @@ html, body {
   -moz-user-select: none;
   user-select: none;
 }
+
 .dialog.visible {
   display: flex;
 }
+
 .dialog .wrap {
   padding: 30px 60px;
   margin: 20px auto;
@@ -34,6 +37,7 @@ html, body {
   background: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
 }
+
 .dialog h1 {
   margin: 0;
 }
@@ -77,10 +81,10 @@ a, a:visited {
   -webkit-filter: drop-shadow(white 0 0 5px);
 }
 
-
 canvas {
   cursor: -webkit-grab;
 }
+
 canvas:active {
   cursor: -webkit-grabbing;
 }

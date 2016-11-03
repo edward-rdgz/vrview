@@ -1,11 +1,18 @@
 body {
   margin: 0;
 }
+
 h1, h2 {
   font-family: 'Lora', serif;
 }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.5rem; }
+
+h1 { 
+  font-size: 2rem; 
+}
+
+h2 { 
+  font-size: 1.5rem; 
+}
 
 p {
   font-family: 'Open Sans', sans-serif;
@@ -23,8 +30,9 @@ p.caption {
   font-family: 'Lora', serif;
 }
 
-iframe { border: 0; }
-
+iframe { 
+  border: 0; 
+}
 
 /* MOBILE */
 @media screen and (max-width: 600px) {
@@ -32,6 +40,7 @@ iframe { border: 0; }
     height: 240px;
   }
 }
+
 /* DESKTOP */
 @media screen and (min-width: 600px) {
   iframe {
@@ -45,4 +54,3 @@ iframe { border: 0; }
     margin: 1rem auto;
   }
 }
-
